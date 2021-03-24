@@ -1,8 +1,8 @@
 {
-  "name": "@ng-bootstrap/ng-bootstrap",
+  "name": "ng-bootstrap-ignore-enter-selection",
   "version": "13.0.0",
   "description": "Angular powered Bootstrap",
-  "author": "https://github.com/ng-bootstrap/ng-bootstrap/graphs/contributors",
+  "author": "https://github.com/gernsdorfer/ng-bootstrap/graphs/contributors",
   "engines": {
     "node": ">=14.15",
     "yarn": ">=1.15.2 <2.0.0"
@@ -54,13 +54,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ng-bootstrap/ng-bootstrap.git"
+    "url": "git+https://github.com/gernsdorfer/ng-bootstrap.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ng-bootstrap/ng-bootstrap/issues"
+    "url": "https://github.com/gernsdorfer/ng-bootstrap/issues"
   },
-  "homepage": "https://github.com/ng-bootstrap/ng-bootstrap#readme",
+  "homepage": "https://github.com/gernsdorfer/ng-bootstrap#readme",
   "dependencies": {
     "tslib": "^2.3.0"
   },
