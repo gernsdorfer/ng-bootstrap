@@ -1,3 +1,9 @@
+# [9.2.0](https://github.com/gernsdorfer/ng-bootstrap/compare/9.1.0...9.2.0) (2021-03-24)
+
+### Features
+
+* **typeahead:** add disable enter selection ([a482554](https://github.com/gernsdorfer/ng-bootstrap/pull/1/commits/a48255458c5ded8f40e88bbf1066a2c36b0325b5))
+
 # [9.1.0](https://github.com/ng-bootstrap/ng-bootstrap/compare/9.0.1...9.1.0) (2021-03-23)
 
 
