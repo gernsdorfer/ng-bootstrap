@@ -19,6 +19,8 @@ import {NgbdTypeaheadTemplate} from './demos/template/typeahead-template';
 import {NgbdTypeaheadTemplateModule} from './demos/template/typeahead-template.module';
 import {NgbdTypeaheadPreventManualEntry} from './demos/prevent-manual-entry/typeahead-prevent-manual-entry';
 import {NgbdTypeaheadPreventManualEntryModule} from './demos/prevent-manual-entry/typeahead-prevent-manual-entry.module';
+import {NgbdTypeaheadEnter} from './demos/select-by-enter/typeahead-select-by-enter';
+import {NgbdTypeaheadEnterModule} from './demos/select-by-enter/typeahead-select-by-enter.module';
 
 const DEMOS = {
   basic: {
@@ -57,6 +59,12 @@ const DEMOS = {
     code: require('!!raw-loader!./demos/prevent-manual-entry/typeahead-prevent-manual-entry').default,
     markup: require('!!raw-loader!./demos/prevent-manual-entry/typeahead-prevent-manual-entry.html').default
   },
+  'select-by-enter': {
+    title: 'Prevent select by enter',
+    type: NgbdTypeaheadEnter,
+    code: require('!!raw-loader!./demos/select-by-enter/typeahead-select-by-enter').default,
+    markup: require('!!raw-loader!./demos/select-by-enter/typeahead-select-by-enter.html').default
+  },
   config: {
     title: 'Global configuration of typeaheads',
     type: NgbdTypeaheadConfig,
@@ -77,7 +85,7 @@ export const ROUTES = [
   imports: [
     NgbdSharedModule, NgbdComponentsSharedModule, NgbdTypeaheadFormatModule, NgbdTypeaheadHttpModule,
     NgbdTypeaheadBasicModule, NgbdTypeaheadFocusModule, NgbdTypeaheadTemplateModule, NgbdTypeaheadConfigModule,
-    NgbdTypeaheadPreventManualEntryModule
+    NgbdTypeaheadPreventManualEntryModule, NgbdTypeaheadEnterModule
   ]
 })
 export class NgbdTypeaheadModule {
