@@ -22,6 +22,7 @@ import {NgbdTypeaheadPreventManualEntry} from './demos/prevent-manual-entry/type
 import {NgbdTypeaheadPreventManualEntryModule} from './demos/prevent-manual-entry/typeahead-prevent-manual-entry.module';
 import { Routes } from '@angular/router';
 import {NgbdTypeaheadEnter} from './demos/select-by-enter/typeahead-select-by-enter';
+import {NgbdTypeaheadEnterModule} from "./demos/select-by-enter/typeahead-select-by-enter.module";
 
 const DEMOS = {
   basic: {
